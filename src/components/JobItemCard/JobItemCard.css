@@ -1,0 +1,83 @@
+.job-card {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 850px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.job-title-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.job-title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffd700; /* Gold for the star */
+}
+
+.star {
+  font-size: 16px;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.job-info {
+  display: flex;
+  gap: 15px;
+}
+
+.location, .job-type {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.salary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 15px 0;
+}
+
+.job-description {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.job-description p {
+  margin: 0;
+}

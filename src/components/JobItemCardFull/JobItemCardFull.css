@@ -1,0 +1,205 @@
+/* Base Styling */
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container */
+.job-full-container {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main-card{
+    background-color: #1f1f1f;
+    padding:10px;
+    border-radius: 20px;
+    margin-top:60px;
+}
+
+/* Header */
+.job-full-header {
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.job-full-header-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.job-full-company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.job-full-title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.job-full-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.job-full-rating {
+  color: #facc15;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.job-full-subinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+.job-full-info {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.job-full-salary {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.job-full-visit-link {
+  color: #60a5fa;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  align-self: flex-start;
+}
+
+/* Sections */
+.job-full-section {
+  margin: 2rem;
+}
+
+.job-full-section h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #f9fafb;
+  border-bottom: 1px solid #2d2d2d;
+  padding-bottom: 0.5rem;
+}
+
+.job-full-section p {
+  color: #e5e7eb;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+.description-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Skills */
+.job-full-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.job-full-skill-item {
+  background-color: #111827;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #f3f4f6;
+}
+
+.job-full-skill-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Life at Company */
+.job-full-life-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.job-full-life-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #2d2d2d;
+}
+
+/* Similar Jobs */
+.job-full-similar-jobs-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.job-full-similar-job-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.job-full-similar-job-card:hover {
+  transform: translateY(-3px);
+}
+
+.job-full-similar-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-full-similar-job-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.job-full-similar-job-card p {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.job-full-similar-job-card .job-full-rating {
+  color: #facc15;
+  font-size: 0.9rem;
+}
+
+.job-full-similar-job-card .job-full-info {
+  font-size: 0.85rem;
+  color: #d1d5db;
+  display: flex;
+  justify-content: space-between;
+}

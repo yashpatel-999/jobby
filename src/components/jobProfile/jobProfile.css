@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.job-profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom:20px;
+}
+.job-profile h1{
+    font-size: 1.3em;
+    color: blue;
+    padding:5px;
+}
+.job-profile p{
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    padding:5px;
+}
+
+
+.failure-btn{
+    height:160px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+.retry-btn{
+    background-color: rgb(90, 60, 240);
+    padding:  10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.avatar{
+    height:50px;
+    width:50px;
+    padding:5px;
+}
